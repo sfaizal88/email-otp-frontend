@@ -24,11 +24,16 @@
 }
 .primary-btn {
     background-color: #2980b9;
+    border: 1px solid #2980b9;
     border: none;
     color: #fff;
     padding: 8px 16px;
     border-radius: 4px;
     font-size: 12px;
+}
+.primary-btn:hover {
+    cursor: pointer;
+    background-color: #3498db;
 }
 .textfield {
     border: 1px solid #7f8c8d;

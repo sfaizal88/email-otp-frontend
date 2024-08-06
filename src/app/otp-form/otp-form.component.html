@@ -3,7 +3,7 @@
     <h6 class="subtitle">Enter the 6 digit OTP sent to your email.</h6><br/>
     <form [formGroup]="otpForm">
         <div *ngIf="otpForm.get('email')?.valid" class="form-field">
-            <input formControlName="otp" type="number" class="textfield" placeholder="Enter your OTP"/>&nbsp;
+            <input formControlName="otp" type="text" class="textfield" placeholder="Enter your OTP"/>&nbsp;
             <button (click)="verifyOtp()" class="primary-btn">Verify OTP</button>
         </div>
         <div class="form-field">
