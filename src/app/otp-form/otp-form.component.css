@@ -1,0 +1,37 @@
+.app-container {
+    text-align: center;
+    color: #2c3e50;
+    width: 300px;
+    margin: 10% auto 0 auto;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    padding: 24px 32px 16px 32px;
+}
+.title {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+.subtitle {
+    color: #7f8c8d;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+.form-field {
+    margin-bottom: 8px;
+}
+.primary-btn {
+    background-color: #2980b9;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.textfield {
+    border: 1px solid #7f8c8d;
+    border-radius: 4px;
+    padding: 6px;
+}

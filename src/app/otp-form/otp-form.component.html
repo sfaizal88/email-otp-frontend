@@ -1,0 +1,17 @@
+<div class="app-container">
+    <h1 class="title">OTP Authentication</h1>
+    <h6 class="subtitle">Enter the 6 digit OTP sent to your email.</h6><br/>
+    <form [formGroup]="otpForm">
+        <div *ngIf="otpForm.get('email')?.valid" class="form-field">
+            <input formControlName="otp" type="number" class="textfield" placeholder="Enter your OTP"/>&nbsp;
+            <button (click)="verifyOtp()" class="primary-btn">Verify OTP</button>
+        </div>
+        <div class="form-field">
+            <input formControlName="email" type="email" class="textfield" placeholder="Enter your email address" />&nbsp;
+            <button (click)="sendOtp()" class="primary-btn">Send OTP</button>
+        </div>
+    </form>
+    
+    <div *ngIf="message">{{ message }}</div>
+</div>
+  
